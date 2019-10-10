@@ -2,20 +2,21 @@ body{
     width: 960px;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: ;
+    background-image: url("../images/beanstalk.png");
 }
 .link1, .link2, .link3{
     float: right;
     color:#777777;
+    background-color: white;
 }
 .topbar{
     background-color:   #ffffff;
-    border: #777777;
+    border: solid #777777;
     height: 100px;
     width: 100%;
-    clear: 0;
+    clear: over;
 }
-.heading{
+.bigheading{
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: white;
@@ -24,7 +25,13 @@ body{
     float: left;
     margin-left: 50px;
 }
-.profilepic{
+img{
     height: 400px;
     width: 300px;
+    float: left;
+    margin-right: 20px;
+
+}
+p{
+    margin-left: 20px;
 }
