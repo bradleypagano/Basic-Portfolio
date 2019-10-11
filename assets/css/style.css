@@ -89,3 +89,30 @@ textarea{
     background-color: #4aaaa5;
     color: #ffffff;
 }
+.textbox{
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 30px;
+    width: 124px;
+    color: #ffffff;
+    height: 20px;
+    text-align: center;
+}
+.double{
+    height: 40px;
+    bottom: 10px;
+}
+.thumbnail1,
+.thumbnail2,
+.thumbnail3,
+.thumbnail4,
+.thumbnail5{
+    position: relative;
+    width: 124px;
+    float: left;
+    margin: 25px;
+}
+.thumbnail3,
+.thumbnail5{
+    clear: both;
+}
